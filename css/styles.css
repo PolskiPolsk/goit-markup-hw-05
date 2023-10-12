@@ -23,13 +23,22 @@ img{
     text-transform: uppercase;
     color: #4d5ae5; 
     margin-right: 76px;
-
+    text-decoration: none;
     
 }
 .link{
     text-decoration: none;
 }
-
+.headericons{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px;
+        list-style: none;
+}
 
 
 span{
@@ -47,6 +56,7 @@ list-style: none;
 padding: 24px 0;
 
 }
+
 .list.link:hover,
 .list.link:focus {
     color: #404bbf;
@@ -451,4 +461,10 @@ text-decoration: none;
 }
 .socialfooter{
     fill:#F4F4FD;
+}
+.is-hidden{
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+
 }
