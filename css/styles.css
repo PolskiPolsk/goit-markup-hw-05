@@ -30,18 +30,16 @@ img{
     text-decoration: none;
 }
 .headericons{
+    text-decoration: none;
         position: relative;
         color: #404bbf;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
         gap: 40px;
-        list-style: none;
-        -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.headericons:hover,
 .headericons:after{
     content:"";
     position:absolute;
@@ -82,20 +80,20 @@ address{
     margin-left: auto;
     align-items: center;
     padding: 24px 0;
-    display: flex;
+    display:flex;
 }
 .address{
-      margin-left: auto;
+    margin-left: auto;
     align-items: center;
 }
 
 .menu{
     color: #434455;
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 
 }
@@ -215,7 +213,10 @@ address{
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .filter-button:hover,
@@ -231,7 +232,28 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    
+}
+.design-concept{
+    position:relative;
+    overflow:hidden;
+
+}
+.stylish-and-user{
+    position:absolute;
+    top:0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4,0,0.2,1);
+
 }
 .phoneapp{
    font-size: 16px;
@@ -336,7 +358,8 @@ address{
 .shadow-effect-app{
     display:block;
     text-decoration: none;
-    
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0%);
 }
 .shadow-effect-app:hover,
 .shadow-effect-app:focus{
