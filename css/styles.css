@@ -392,6 +392,7 @@ text-decoration: none;
     gap: 24px;
     list-style: none;
     padding-top: 10px;
+    
 
 }
 .socilamedialist{
@@ -406,6 +407,8 @@ text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: backgroung-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .social-names:hover,
 .social-names:focus{
@@ -444,6 +447,7 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
     color: #8e8f99;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customerlink:hover,
 .customerlink:focus{
@@ -490,6 +494,7 @@ text-decoration: none;
     display:flex;
     align-items: center;
     justify-content: center; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footermediaicons:hover,
 .footermediaicons:focus{
