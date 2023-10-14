@@ -30,23 +30,24 @@ img{
     text-decoration: none;
 }
 .headericons{
-    text-decoration: none;
-        position: relative;
-        color: #404bbf;
+        text-decoration: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         gap: 40px;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        list-style: none;
+        -webkit-transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 27px 0;
 }
-.headericons:after{
+.underline::after{
     content:"";
-    position:absolute;
+    position: absolute;
     left: 0;
+    width: 100%;
     bottom: -1px;
     height: 4px;
-    background-color: #404bbf;
+    background-color: #404BBF;
     border-radius: 2px;
 }
 
