@@ -259,7 +259,7 @@ address{
 }
 .stylish-and-user .shadow-effect-app:hover,
 .stylish-and-user .shadow-effect-app:focus{
-    transform: translateY(0%);
+    transform:translateY(0%);
 }
 
 .phoneapp{
