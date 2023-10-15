@@ -9,7 +9,13 @@ body {
     background-color: #FFFFFF;
 }
 :root{
-    --brand-color:var(--brand-color)
+        --CORNFLOWER: #E7E9FC;
+        --IRIS: #4D5AE5;
+        --NAVY-BLUE: #2E2F42;
+        --SLATE: #434455;
+        --WHITE: #FFFFFF;
+        --CLOUD: #F4F4FD;
+        --OCEAN: #404BBF;
 }
 img{
     display: block;
@@ -32,7 +38,7 @@ img{
 }
 .headericons{
         position: relative;
-        color: #404BBF;
+        color: var(--OCEAN);
         text-decoration: none;
         font-weight: 500;
         font-size: 16px;
