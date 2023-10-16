@@ -76,13 +76,13 @@ span{
     color:var(--NAVY-BLUE);
 }
 .list{
-font-weight: 500;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
 gap: 40px;
-padding: 24px 0;
+
 list-style: none;
 
 
@@ -90,7 +90,7 @@ list-style: none;
 
 .list.link:hover,
 .list.link:focus {
-    color: var(--OCEAN)
+    color: var(--OCEAN);
 }
 address{
     font-style: normal; 
@@ -105,6 +105,7 @@ address{
 .address{
     margin-left: auto;
     align-items: center;
+    font-weight: 400;
 }
 
 .menu{
@@ -190,6 +191,7 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
+    font-weight: 400;
 }
 .whatwedo{
     font-size: 36px;
@@ -247,7 +249,7 @@ address{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .bankingapp{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -286,6 +288,7 @@ address{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color:var(--SLATE);
+   font-weight: 400;
 }
 .footer{
     background-color: var(--NAVY-BLUE);
@@ -316,6 +319,7 @@ address{
 .nav{
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 .section-two{
     padding: 120px 0;
@@ -415,6 +419,7 @@ text-decoration: none;
     background-color: var(--CLOUD);
     border-radius: 4px;
     margin-bottom: 8px;
+    
 }
 .socialmediaicons{
     display: flex;
@@ -586,7 +591,6 @@ text-decoration: none;
 .cross{
         width: 60%;
         height: 60%;
-        background-color: var(--CLOUD);
         border-radius: 50%;
         align-items: center;
         justify-content: center;
